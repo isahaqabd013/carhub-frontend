@@ -1,0 +1,86 @@
+/* Global Body Styling */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern clean font similar to Tesla */
+    background-color: #f8f8f8;
+    color: #333; /* Dark text color for readability */
+    letter-spacing: 0.5px; /* Slight letter-spacing for a clean look */
+    line-height: 1.6; /* Good line height for readability */
+  }
+  
+  /* Container for the Explore Page */
+  .explore-cars-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px 10px;
+  }
+  
+  /* Heading Style - Similar to Tesla */
+  h2 {
+    font-size: 2.5rem; /* Bigger font size for prominence */
+    font-weight: 600; /* Bold weight for emphasis */
+    color: #111; /* Darker text color for headings */
+    margin-bottom: 10px;
+    letter-spacing: 1px; /* Slight letter spacing for clarity */
+    text-transform: uppercase; /* Uppercase for emphasis like Tesla */
+  }
+  
+  /* Paragraph Style - Lighter weight */
+  p {
+    color: #555; /* Slightly lighter color for paragraphs */
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 300; /* Lighter font weight for body text */
+    letter-spacing: 0.5px;
+    line-height: 1.8; /* Better line-height for readability */
+  }
+  
+  /* Cars Grid - 4 items per row */
+  .cars-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Max 4 items per row */
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+  }
+  
+  /* Individual Car Card Styling */
+  .car-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    font-weight: 400; /* Regular weight for the car card */
+  }
+  
+  /* Image Styling for Cars */
+  .car-card img {
+    width: 100%;
+    max-width: 150px; /* Maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Car Name Styling - Similar to Tesla's emphasis */
+  .car-card span {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600; /* Bold for car names */
+    color: #111; /* Dark color for names */
+    letter-spacing: 0.5px; /* Slight letter-spacing for better clarity */
+    text-transform: uppercase; /* Uppercase for emphasis */
+  }
+  
+  /* Hover Effects for Cards */
+  .car-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-card:hover img {
+    transform: scale(1.1);
+  }
+  

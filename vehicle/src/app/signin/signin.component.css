@@ -1,0 +1,141 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url('car_background.jpg') no-repeat center center fixed; */
+    background-size: cover;
+}
+
+/* Container for login layout */
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Left side container */
+.left-side {
+    width: 40%;
+    background-color: #d92128; /* Red */
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Logo styling */
+.logo {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Login information */
+.login-info h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.login-info p {
+    font-size: 1.1em;
+}
+
+/* Button for Learn More */
+.learn-more {
+    padding: 12px 25px;
+    background-color: white;
+    color: #d92128;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #e5e5e5;
+}
+
+/* Right side container */
+.right-side {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box styling */
+.login-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+    text-align: center; /* Center the content within the box */
+}
+
+/* Title within the login box */
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+/* Input field styling */
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+/* Hover effect for inputs */
+.login-box input:focus {
+    border-color: #d92128;
+}
+
+/* Forgot password link */
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Login button */
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #d92128;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #b0181f;
+}

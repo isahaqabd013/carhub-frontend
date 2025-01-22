@@ -1,0 +1,11 @@
+<div class="explore-cars-container">
+    <h2>Explore Cars</h2>
+    <p>"Your One-Stop Destination for Buying, Selling, and Servicing Your Car - Hassle-Free and All in One Place!"</p>
+    <div class="cars-grid">
+      <div class="car-card" *ngFor="let car of cars">
+        <img [src]="car.imgPath" [alt]="car.name" />
+        <span>{{ car.name }}</span>
+      </div>
+    </div>
+  </div>
+  

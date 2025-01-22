@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Wash Packages</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="menu-icon">☰</div>
+            <nav class="nav-menu">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+            </nav>
+            <div class="logo">CarHub</div>
+            <nav class="nav-menu">
+                <a href="#">Blog</a>
+                <a href="#">About</a>
+            </nav>
+            <div class="user-icon">👤</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="packages">
+            <div class="container">
+                <div class="package">
+                    <div class="package-header">
+                        <div class="icon">💧</div>
+                        <div class="price">$10</div>
+                    </div>
+                    <h3>Our Basic Wash</h3>
+                    <ul>
+                        <li>Interior Wash</li>
+                        <li>Ring Cleaning</li>
+                        <li>Door Cleaning</li>
+                        <li>Glass Cleaning</li>
+                    </ul>
+                    <button class="select-plan">Select Plan</button>
+                </div>
+                <div class="package">
+                    <div class="package-header">
+                        <div class="icon">✨</div>
+                        <div class="price">$15</div>
+                    </div>
+                    <h3>Super Wash</h3>
+                    <ul>
+                        <li>Interior Wash</li>
+                        <li>Trunk Check</li>
+                        <li>Door Cleaning</li>
+                        <li>Glass Cleaning</li>
+                    </ul>
+                    <button class="select-plan">Select Plan</button>
+                </div>
+                <div class="price-showcase">
+                    <h2>PACKAGES</h2>
+                    <h1>CAR WASH<br>PRICE SHOWCASE</h1>
+                    <p>Find competitive prices in our detailed car wash price list and choose the ideal treatment for your vehicle.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <div class="feature-icon">⚙️</div>
+                            <p>Advanced<br>Technology</p>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">😊</div>
+                            <p>Customer<br>Convenience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // JavaScript to toggle mobile navigation menu
+        const menuIcon = document.querySelector('.menu-icon');
+        const navMenus = document.querySelectorAll('.nav-menu');
+
+        menuIcon.addEventListener('click', () => {
+            navMenus.forEach(nav => nav.classList.toggle('show'));
+        });
+    </script>
+</body>
+</html>

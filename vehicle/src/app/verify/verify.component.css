@@ -1,0 +1,150 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f8f8f8; /* Light background */
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 1.2em;
+    color: #777;
+}
+
+.icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.user-list,
+.buyer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.user-item,
+.buyer-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.user-item:last-child,
+.buyer-list li:last-child {
+    border-bottom: none;
+}
+
+.user-item a {
+    text-decoration: none;
+    margin-left: 10px;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.user-item a:hover {
+    color: #0056b3;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.accept {
+    background-color: #28a745; /* Green */
+    color: white;
+}
+
+.accept:hover {
+    background-color: #218838;
+}
+
+.reject {
+    background-color: #dc3545; /* Red */
+    color: white;
+}
+
+.reject:hover {
+    background-color: #c82333;
+}
+
+.buyer-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    main {
+        flex-direction: column;
+    }
+
+    .user-item,
+    .buyer-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

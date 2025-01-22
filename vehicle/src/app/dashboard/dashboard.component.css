@@ -1,0 +1,39 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif; /* Use Arial as a fallback sans-serif font */
+    margin: 0; /* Remove default body margins */
+    line-height: 1.6; /* Improve text readability */
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text color for better contrast */
+}
+
+.container {
+    max-width: 960px; /* Set a maximum width for the content */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #fff; /* White background for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners for modern appearance */
+}
+
+h1 {
+    color: #007bff; /* A consistent blue heading color */
+    font-size: 2em; /* Slightly larger font size for prominence */
+    margin-bottom: 10px; /* Space below the heading */
+    text-align: center; /* Center-align the heading */
+}
+
+p {
+    font-size: 1em; /* Standard font size */
+    margin-bottom: 15px; /* Add space below the paragraph */
+    text-align: center; /* Center-align the paragraph */
+}
+
+img {
+    max-width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent image from affecting line height */
+    margin: 20px auto; /* Center the image with space above and below */
+    border: 2px solid #ddd; /* Add a subtle border for focus */
+    border-radius: 4px; /* Rounded edges for better aesthetics */
+}

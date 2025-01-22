@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarHub</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">CarHub</div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Explore Cars</a>
+                <a href="#">Sell my Car</a>
+                <a href="#">Service</a>
+                <a href="login()" class="login-btn" (click)="signin()">Log in</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animated-text">ALL UNDER<br>ONE ROOF!</h1>
+                    <p>"Your One-Stop Destination for<br>Buying, Selling, and Servicing Your<br>Car - Hassle-Free and All in One<br>Place!"</p>
+                    <div class="hero-buttons">
+                        <button class="register-btn" (click)="regist()">Register</button>
+                        <button class="see-more-btn">See more</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="tesla.png" class="animated-image" alt="Car Image">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
