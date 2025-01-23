@@ -1,4 +1,5 @@
 /* Global Body Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 body {
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern clean font similar to Tesla */
@@ -17,9 +18,10 @@ body {
   
   /* Heading Style - Similar to Tesla */
   h2 {
-    font-size: 2.5rem; /* Bigger font size for prominence */
+    font-size: 2.0rem; /* Bigger font size for prominence */
+    font-family: 'Poppins', Helvetica, Arial, sans-serif; 
     font-weight: 600; /* Bold weight for emphasis */
-    color: #111; /* Darker text color for headings */
+    color: #0e0a0a; /* Darker text color for headings */
     margin-bottom: 10px;
     letter-spacing: 1px; /* Slight letter spacing for clarity */
     text-transform: uppercase; /* Uppercase for emphasis like Tesla */
